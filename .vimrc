@@ -29,7 +29,7 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 "syntax, colorscheme
 let python_highlight_all=1
 syntax enable
-colorscheme badwolf
+" colorscheme badwolf
 
 " tab settings
 set tabstop=4
