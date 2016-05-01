@@ -16,7 +16,7 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'fatih/vim-go'
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
-Bundle 'Valloric/YouCompleteMe'
+" Bundle 'Valloric/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -25,8 +25,8 @@ filetype plugin indent on    " required
 let mapleader=" "
 
 "settings for you complete me
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"let g:ycm_autoclose_preview_window_after_completion=1
+"map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 "syntax, colorscheme
 let python_highlight_all=1
@@ -48,4 +48,4 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 "mapping for executing python
-nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
+"nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
